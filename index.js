@@ -41,10 +41,5 @@ const server = http.createServer((req,res) => {
     });
     
 
-  const port = Process.env.PORT || 3000 ;
-
-// Start node server
-app.listen( app.get( 'port' ), function() {
-  console.log( 'Node server is running on port ' + app.get( 'port' ));
-  });
+   server.listen(4000,"0.0.0.0");
      
